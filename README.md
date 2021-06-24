@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-- [std::format in C++20](#std::format-in-C++20)
+- [std::format in C++20](#stdformat-in-c20)
 	* [Requirement](#Requirement)
 
 ## Requirement
