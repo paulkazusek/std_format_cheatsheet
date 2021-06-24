@@ -27,7 +27,7 @@ printf( "The answer is %d \n", answer );
 ```cpp
 int answer { 42 };
 
-std::cout << boost::format( "The answer is %\n") % answer;
+std::cout << "The answer is " << answer << "\n";
  ```
  
   ### Boost Format
@@ -35,7 +35,7 @@ std::cout << boost::format( "The answer is %\n") % answer;
  ```cpp
 int answer { 42 };
 
-ff::fmtll( std::cout,  "The answer is {0} \n", answer );
+std::cout << boost::format( "The answer is %\n") % answer;
  ```
  
  ### Fast Format
