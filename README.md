@@ -218,6 +218,8 @@ std::cout << std::format( "{0:{1}.{2}f}", pi, width, precision );
 
  
 ### Localization
+ 
+Use `:L` to enable locale specific formatting for an argument.
 
 ```cpp
 std::cout << std::format( locale( "en_US.UTF-8" ), "{:L}", 1024 );
