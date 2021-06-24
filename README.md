@@ -14,7 +14,7 @@
     
 ## Currently ways to formatting in C++
 
-### C-Style printf() from <stdio>
+### C-Style printf() from <cstdio>
 
 ```cpp
 int answer { 42 };
@@ -27,7 +27,23 @@ printf( "The answer is %d \n", answer );
 ```cpp
 int answer { 42 };
 
-std::cout << "The answer is " << answer << "\n";
+std::cout << boost::format( "The answer is %\n") % answer;
+ ```
+ 
+  ### Boost Format
+ 
+ ```cpp
+int answer { 42 };
+
+ff::fmtll( std::cout,  "The answer is {0} \n", answer );
+ ```
+ 
+ ### Fast Format
+ 
+ ```cpp
+int answer { 42 };
+
+ff::fmtll( std::cout,  "The answer is {0} \n", answer );
  ```
  
 ### std::format in <format>
