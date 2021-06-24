@@ -182,5 +182,27 @@ std::cout << std::format( "{:#15X}", 42 );
  ```
  
 ### [.precision]
+
+```cpp
+double pi { 3.1415 };
+int precision { 2 };
+int width { 15 };
+ ```
+ 
+```cpp
+std::cout << std::format( "{:15.2f}", pi );
+ ```
+
+```cpp
+std::cout << std::format( "{:15.{}f}", pi, precision );
+ ```
+
+```cpp
+std::cout << std::format( "{:{}.{}f}", pi, width, precision );
+ ```
+
+```cpp
+std::cout << std::format( "{0:{1}.{2}f}", pi, width, precision );
+ ```
  
 ### [type]
