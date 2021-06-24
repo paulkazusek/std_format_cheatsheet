@@ -12,3 +12,13 @@
 #include <format>
  ```
     
+## Currently ways to formatting in C++
+
+### C-Style printf() from stdio
+
+```cpp
+	int answer { 42 };
+
+	// C-Style printf()
+	printf( "The answer is %d \n", answer );
+ ```
