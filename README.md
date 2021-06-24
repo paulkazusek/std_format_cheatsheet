@@ -102,15 +102,15 @@ Specifies optional characters and aligment
 </ul>
 
 ```cpp
-std::cout << std::format( "{:<5}", 42);
+std::cout << std::format( "{:<20}", "left");
  ```
  
  ```cpp
-std::cout << std::format( "{:_>5}", 42);
+std::cout << std::format( "{:>20}", "right");
  ```
  
  ```cpp
-std::cout << std::format( "{:_^5}", 42);
+std::cout << std::format( "{:^20}", "centered");
  ```
  
 ### [sign]
