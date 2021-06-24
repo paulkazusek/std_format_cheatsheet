@@ -96,7 +96,7 @@ std::cout << std::format( "{:{}}", 42, 5 );
 Specifies optional characters and aligment
  
 * < left
-* > right
+* "> right"
 * ^ center
  
  
