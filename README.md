@@ -56,7 +56,7 @@ std::cout << std::format( "The answer is {}", answer );
  
  ## Placeholder
  
-Format string contains placeholders {}
+Format string contains placeholders { }
  
 ```cpp
 std::cout << std::format( "The answer is {}", 42 );
