@@ -68,3 +68,10 @@ Can contains argument index
 std::cout << std::format( "The answer is {0} \n", 42 );
  ```
  
+curly braces in output
+ 
+ ```cpp
+std::cout << std::format( "The answer is {{ }} \n", 42 );
+ ```
+ 
+ 
