@@ -1,8 +1,11 @@
 # std::format cheatsheet
 
 IMAGE:
+
 modern cpp
+
 std::format
+
 cheatsheet
 
 If you like this content, you can contact me or follow me on Twitter :+1:
