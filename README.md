@@ -17,8 +17,8 @@
 ### C-Style printf() from stdio
 
 ```cpp
-	int answer { 42 };
+int answer { 42 };
 
-	// C-Style printf()
-	printf( "The answer is %d \n", answer );
+// C-Style printf()
+printf( "The answer is %d \n", answer );
  ```
