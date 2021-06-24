@@ -102,15 +102,15 @@ Specifies optional characters and aligment
 </ul>
 
 ```cpp
-std::cout << std::format( "The answer is |{:<7}|", answer);
+std::cout << std::format( "{:<7}", 42);
  ```
  
  ```cpp
-std::cout << std::format( "The answer is |{:_>7}|", answer);
+std::cout << std::format( "{:_>7}", 42);
  ```
  
  ```cpp
-std::cout << std::format( "The answer is |{:_^7}|", answer);
+std::cout << std::format( "{:_^7}", 42);
  ```
  
  	
