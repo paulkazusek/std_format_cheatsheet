@@ -293,3 +293,6 @@ std::complex<double> c { 4.0, 8.0 };
 ```cpp
 std::cout << std::format( "{}", c);
 ```
+
+	
+## formating custom types
