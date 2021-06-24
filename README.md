@@ -1,4 +1,4 @@
-# std::format (C++20) cheatsheet
+# std::format cheatsheet
 
 If you like this content, you can contact me or follow me on Twitter :+1:
 
