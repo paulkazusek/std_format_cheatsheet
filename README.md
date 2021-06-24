@@ -94,7 +94,8 @@ std::cout << std::format( "{:{}}", 42, 5 );
  ### [[fill]align]
  
 Specifies optional characters and aligment
- 
+
+### Aligment
 <ul>
  <li><p>< left</p></li>
  <li><p>> right</p></li>
@@ -112,6 +113,7 @@ std::cout << std::format( "{:>20}", "right");
 ```cpp
 std::cout << std::format( "{:^20}", "centered");
  ```
+ ### Fill and aligment
  
  ```cpp
 std::cout << std::format( "{:-^20}", "centered");
