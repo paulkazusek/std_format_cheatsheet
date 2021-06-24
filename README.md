@@ -96,9 +96,9 @@ std::cout << std::format( "{:{}}", 42, 5 );
 Specifies optional characters and aligment
  
 <ul>
-<li><p>< left</p></li>
-<li><p>> right</p></li>
-<li><p>^ center</p></li>
+ <li><p>< left</p></li>
+ <li><p>> right</p></li>
+ <li><p>^ center</p></li>
 </ul>
 
 ```cpp
@@ -115,10 +115,10 @@ std::cout << std::format( "{:_^5}", 42);
  
 ### [sign]
  
- <ul>
-<li><p>- sign only for negative numbers (default)</p></li>
-<li><p>+ sign for negative and positive numbers</p></li>
-<li><p>scape display minus sign for negative numbers, a space for positive numbers</p></li>
+<ul>
+ <li><p>- sign only for negative numbers (default)</p></li>
+ <li><p>+ sign for negative and positive numbers</p></li>
+ <li><p>scape display minus sign for negative numbers, a space for positive numbers</p></li>
 </ul>
 
 ```cpp
@@ -138,6 +138,20 @@ std::cout << std::format( "{:< 5}", -42 );
  ```
 
 ### [#]
+ 
+<ul>
+ <li><p>< left</p></li>
+ <li><p>> right</p></li>
+ <li><p>^ center</p></li>
+</ul>
+ 
+// enabled alternative formatting rules
+//integral types
+//	- Hexadecimal format: inserts 0x or 0X at font
+//	- Binray format: inserts 0b or 0B at font
+//	- Octal format: inserts 0
+//floating-points types
+//	- always show decimal separator, even without following digits
  
 ### [.precision]
  
