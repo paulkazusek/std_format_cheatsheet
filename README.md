@@ -102,15 +102,15 @@ Specifies optional characters and aligment
 </ul>
 
 ```cpp
-std::cout << std::format( "{:<7}", 42);
+std::cout << std::format( "{:<5}", 42);
  ```
  
  ```cpp
-std::cout << std::format( "{:_>7}", 42);
+std::cout << std::format( "{:_>5}", 42);
  ```
  
  ```cpp
-std::cout << std::format( "{:_^7}", 42);
+std::cout << std::format( "{:_^5}", 42);
  ```
  
 ### [sign]
@@ -122,5 +122,17 @@ std::cout << std::format( "{:_^7}", 42);
 </ul>
 
 ```cpp
-std::cout << std::format( "{:<7}", 42 );
+std::cout << std::format( "{:<5}", 42 );
+ ```
+
+```cpp
+std::cout << std::format( "{:<+5}", 42 );
+ ```
+
+```cpp
+std::cout << std::format( "{:< 5}", 42 );
+ ```
+ 
+```cpp
+std::cout << std::format( "{:< 5}", 42 );
  ```
