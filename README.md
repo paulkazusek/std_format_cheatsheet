@@ -4,7 +4,7 @@
 
 | compiler | version  |
 |:--------:|:-------------:|
-| Visual Studio | 16.10 / 19.29 |
+| Visual Studio | Version 16.10 / cl 19.29 |
 | GCC | ??? |
 | clang | ??? |
 
