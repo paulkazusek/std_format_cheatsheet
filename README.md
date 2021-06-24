@@ -105,12 +105,16 @@ Specifies optional characters and aligment
 std::cout << std::format( "{:<20}", "left");
  ```
  
- ```cpp
+```cpp
 std::cout << std::format( "{:>20}", "right");
  ```
  
- ```cpp
+```cpp
 std::cout << std::format( "{:^20}", "centered");
+ ```
+ 
+ ```cpp
+std::cout << std::format( "{:-^20}", "centered");
  ```
  
 ### [sign]
