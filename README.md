@@ -208,3 +208,10 @@ std::cout << std::format( "{0:{1}.{2}f}", pi, width, precision );
  ```
  
 ### [type]
+
+#### integer types
+#### floating-points types
+#### booleans
+#### characters
+#### strings
+#### pointers
