@@ -158,6 +158,22 @@ std::cout << std::format( "{:< 5}", -42 );
 ```cpp
 std::cout << std::format( "{:15d}", 42 );
  ```
+
+```cpp
+std::cout << std::format( "{:15b}", 42 );
+ ```
+ 
+```cpp
+std::cout << std::format( "{:#15b}", 42 );
+ ```
+ 
+```cpp
+std::cout << std::format( "{:15X}", 42 );
+ ```
+
+```cpp
+std::cout << std::format( "{:#15X}", 42 );
+ ```
  
 ### [.precision]
  
