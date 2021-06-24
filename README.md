@@ -182,6 +182,8 @@ std::cout << std::format( "{:#15X}", 42 );
  ```
  
 ### [.precision]
+ 
+only for floating-points types and strings types
 
 ```cpp
 double pi { 3.1415 };
