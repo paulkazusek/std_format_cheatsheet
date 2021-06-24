@@ -8,7 +8,7 @@
 	* [Table of contents](#table-of-contents)
 	* [Requirement](#Requirement)
 	* [Currently ways to formatting in C++](#currently-ways-to-formatting-in-c)
-		+ [C-Style printf() from <cstdio>](#c-style-printf-from-)
+		+ [C-Style printf() from \<cstdio\>](#c-style-printf-from-)
 
 
 ## Requirement
