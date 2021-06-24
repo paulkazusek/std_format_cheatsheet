@@ -100,3 +100,8 @@ Specifies optional characters and aligment
 * ^ center
  
  
+<ul>
+<li><p>< left</p></li>
+<li><p>> right</p></li>
+<li><p>^ center</p></li>
+</ul>
