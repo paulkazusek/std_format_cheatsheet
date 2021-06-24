@@ -249,3 +249,10 @@ void print_happy_birthday( const std::string_view& name, const std::chrono::year
 	std::cout << std::format( "{0}'s birthday is {1:%Y-%m-%d}.", name, birthday ) << "\n";
 }
 ```
+	
+```cpp
+std::string name { "Max Mustermann" };
+std::chrono::year_month_day birthday { std::chrono::year{ 2000 }, std::chrono::month{ 4 }, std::chrono::day{ 10 } };
+
+print_happy_birthday( name , birthday );
+```
