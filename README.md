@@ -242,3 +242,10 @@ std::cout << std::format( locale( "de_DE.UTF-8" ), "{:L}", 1024 );
 ```cpp
 #include <chrono>
 ```
+
+```cpp
+void print_happy_birthday( const std::string_view& name, const std::chrono::year_month_day& birthday )
+{
+	std::cout << std::format( "{0}'s birthday is {1:%Y-%m-%d}.", name, birthday ) << "\n";
+}
+```
