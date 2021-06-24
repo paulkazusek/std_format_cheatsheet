@@ -80,14 +80,23 @@ Placeholder can contains a format specifiers. It starts with a colon: {[index]:[
  
 [[fill]align][sign][#][0][width][.precision][type]
  
-### width
+### [width]
  
- 
+minimum desired field width
+
 ```cpp
 std::cout << std::format( "{:5}", 42 );
  ```
+ 
 ```cpp
 std::cout << std::format( "{:{}}", 42, 5 );
  ```
+ ### [fill]align]
+ 
+Specifies optional characters and aligment
+ 
+* < left
+* > right
+* ^ center
  
  
