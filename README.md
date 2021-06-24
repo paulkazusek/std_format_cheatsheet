@@ -65,7 +65,7 @@ std::cout << std::format( "The answer is {}", 42 );
 Can contains argument index
  
  ```cpp
-std::cout << std::format( "The answer is {0}", 42 );
+std::cout << std::format( "I'd rather be {1} than {0}", "right", "happy" );
  ```
  
 curly braces in output
@@ -154,6 +154,10 @@ std::cout << std::format( "{:< 5}", -42 );
   </ul>
  </li>
 </ul>
+
+```cpp
+std::cout << std::format( "{:15d}", 42 );
+ ```
  
 ### [.precision]
  
