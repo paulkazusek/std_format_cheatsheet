@@ -242,7 +242,7 @@ std::cout << std::format( "{0:{1}.{2}f}", pi, width, precision );
 	
 std::locale is supported in std::format 
  
-Use `:L` to enable locale specific formatting for an argument.
+> **Note:** Use `:L` to enable locale specific formatting for an argument.
  
 ```cpp
 #include <locale>
