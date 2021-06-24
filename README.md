@@ -14,11 +14,28 @@
     
 ## Currently ways to formatting in C++
 
-### C-Style printf() from stdio
+### C-Style printf() from <stdio>
 
 ```cpp
 int answer { 42 };
 
-// C-Style printf()
 printf( "The answer is %d \n", answer );
  ```
+
+### C++ I/O streams
+
+```cpp
+int answer { 42 };
+
+std::cout << "The answer is " << answer << "\n";
+ ```
+ 
+### std::format in <format>
+ 
+ ```cpp
+int answer { 42 };
+
+std::cout << std::format( "The answer is {} \n", answer );
+ ```
+ 
+ 
