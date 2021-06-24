@@ -95,13 +95,22 @@ std::cout << std::format( "{:{}}", 42, 5 );
  
 Specifies optional characters and aligment
  
-* < left
-* > right
-* ^ center
- 
- 
 <ul>
 <li><p>< left</p></li>
 <li><p>> right</p></li>
 <li><p>^ center</p></li>
 </ul>
+
+```cpp
+std::cout << std::format( "The answer is |{:<7}|", answer);
+ ```
+ 
+ ```cpp
+std::cout << std::format( "The answer is |{:_>7}|", answer);
+ ```
+ 
+ ```cpp
+std::cout << std::format( "The answer is |{:_^7}|", answer);
+ ```
+ 
+ 	
