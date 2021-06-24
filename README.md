@@ -1,6 +1,6 @@
 # std::format in C++20
 
-If you like this content, you can ping me or follow me on Twitter :+1:
+If you like this content, you can contact me or follow me on Twitter :+1:
 
 [![Tweet for help](https://img.shields.io/twitter/follow/paulkazusek?label=Tweet%20%40paulkazusek&style=social)](https://twitter.com/paulkazusek/)
 
