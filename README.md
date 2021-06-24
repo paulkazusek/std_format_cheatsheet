@@ -264,3 +264,11 @@ print_happy_birthday( name , birthday );
 ```cpp
 #include <complex>
 ```
+
+```cpp
+std::complex<double> c { 4.0, 8.0 };
+```
+
+```cpp
+std::cout << std::format( "{}", c);
+```
