@@ -19,7 +19,7 @@
 ```cpp
 int answer { 42 };
 
-printf( "The answer is %d \n", answer );
+printf( "The answer is %d ", answer );
  ```
 
 ### C++ I/O streams
@@ -35,7 +35,7 @@ std::cout << "The answer is " << answer << "\n";
  ```cpp
 int answer { 42 };
 
-std::cout << boost::format( "The answer is %\n") % answer;
+std::cout << boost::format( "The answer is %") % answer;
  ```
  
  ### Fast Format
@@ -43,7 +43,7 @@ std::cout << boost::format( "The answer is %\n") % answer;
  ```cpp
 int answer { 42 };
 
-ff::fmtll( std::cout,  "The answer is {0} \n", answer );
+ff::fmtll( std::cout,  "The answer is {0}", answer );
  ```
  
 ### std::format in <format>
@@ -51,7 +51,7 @@ ff::fmtll( std::cout,  "The answer is {0} \n", answer );
  ```cpp
 int answer { 42 };
 
-std::cout << std::format( "The answer is {} \n", answer );
+std::cout << std::format( "The answer is {}", answer );
  ```
  
  ## Placeholder
@@ -59,19 +59,30 @@ std::cout << std::format( "The answer is {} \n", answer );
 Format string contains placeholders {}
  
 ```cpp
-std::cout << std::format( "The answer is {} \n", 42 );
+std::cout << std::format( "The answer is {}", 42 );
  ```
  
 Can contains argument index
  
  ```cpp
-std::cout << std::format( "The answer is {0} \n", 42 );
+std::cout << std::format( "The answer is {0}", 42 );
  ```
  
 curly braces in output
  
  ```cpp
-std::cout << std::format( "The answer is {{ }} \n", 42 );
+std::cout << std::format( "The answer is {{ }}", 42 );
  ```
  
+## Format specifiers
  
+Placeholder can contains a format specifiers. It starts with a colon: {[index]:[format specifiers]}
+ 
+[[fill]align][sign][#][0][width][.precision][type]
+ 
+### width
+ 
+ 
+ ```cpp
+std::cout << std::format( "{ }", 42 );
+ ```
