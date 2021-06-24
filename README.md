@@ -134,5 +134,5 @@ std::cout << std::format( "{:< 5}", 42 );
  ```
  
 ```cpp
-std::cout << std::format( "{:< 5}", 42 );
+std::cout << std::format( "{:< 5}", -42 );
  ```
