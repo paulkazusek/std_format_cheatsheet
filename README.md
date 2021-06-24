@@ -239,7 +239,7 @@ std::cout << std::format( locale( "zh_CN.UTF-8" ), "{:L}", 1024 );
 std::cout << std::format( locale( "de_DE.UTF-8" ), "{:L}", 1024 );
  ```
 
-## chrono with text formating
+## formating std::chrono
  
 ```cpp
 #include <chrono>
