@@ -54,4 +54,17 @@ int answer { 42 };
 std::cout << std::format( "The answer is {} \n", answer );
  ```
  
+ ## Placeholder
+ 
+Format string contains placeholders {}
+ 
+```cpp
+std::cout << std::format( "The answer is {} \n", 42 );
+ ```
+ 
+Can contains argument index
+ 
+ ```cpp
+std::cout << std::format( "The answer is {0} \n", 42 );
+ ```
  
