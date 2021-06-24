@@ -215,3 +215,6 @@ std::cout << std::format( "{0:{1}.{2}f}", pi, width, precision );
 #### characters
 #### strings
 #### pointers
+
+ 
+### Localization
