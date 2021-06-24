@@ -83,6 +83,11 @@ Placeholder can contains a format specifiers. It starts with a colon: {[index]:[
 ### width
  
  
- ```cpp
-std::cout << std::format( "{ }", 42 );
+```cpp
+std::cout << std::format( "{:5}", 42 );
  ```
+```cpp
+std::cout << std::format( "{:{}}", 42, 5 );
+ ```
+ 
+ 
