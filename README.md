@@ -218,3 +218,15 @@ std::cout << std::format( "{0:{1}.{2}f}", pi, width, precision );
 
  
 ### Localization
+
+```cpp
+std::cout << std::format( locale( "en_US.UTF-8" ), "{:L}", 1024 );
+ ```
+
+```cpp
+std::cout << std::format( locale( "zh_CN.UTF-8" ), "{:L}", 1024 );
+ ```
+ 
+```cpp
+std::cout << std::format( locale( "de_DE.UTF-8" ), "{:L}", 1024 );
+ ```
