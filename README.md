@@ -5,7 +5,10 @@
 ## Table of Contents
 
 - [std::format in C++20](#stdformat-in-c20)
+	* [Table of contents](#table-of-contents)
 	* [Requirement](#Requirement)
+	* [Currently ways to formatting in C++](#Requirement)
+
 
 ## Requirement
 
