@@ -91,7 +91,7 @@ std::cout << std::format( "{:5}", 42 );
 ```cpp
 std::cout << std::format( "{:{}}", 42, 5 );
  ```
- ### [fill]align]
+ ### [[fill]align]
  
 Specifies optional characters and aligment
  
@@ -113,4 +113,14 @@ std::cout << std::format( "{:_>7}", 42);
 std::cout << std::format( "{:_^7}", 42);
  ```
  
- 	
+### [sign]
+ 
+ <ul>
+<li><p>- sign only for negative numbers (default)</p></li>
+<li><p>+ sign for negative and positive numbers</p></li>
+<li><p>scape display minus sign for negative numbers, a space for positive numbers</p></li>
+</ul>
+
+```cpp
+std::cout << std::format( "{:<7}", 42 );
+ ```
