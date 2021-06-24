@@ -1,1 +1,1 @@
-"# std::format in C++20" 
+# std::format in C++20
