@@ -30,17 +30,17 @@ int answer { 42 };
 std::cout << "The answer is " << answer << "\n";
  ```
  
-  ### Boost Format
+### Boost Format
  
- ```cpp
+```cpp
 int answer { 42 };
 
 std::cout << boost::format( "The answer is %") % answer;
  ```
  
- ### Fast Format
+### Fast Format
  
- ```cpp
+```cpp
 int answer { 42 };
 
 ff::fmtll( std::cout,  "The answer is {0}", answer );
@@ -48,27 +48,27 @@ ff::fmtll( std::cout,  "The answer is {0}", answer );
  
 ### std::format in <format>
  
- ```cpp
+```cpp
 int answer { 42 };
 
 std::cout << std::format( "The answer is {}", answer );
  ```
  
- ## Placeholder
+## Placeholder
  
-Format string contains placeholders { }
+### Brace-delimited replacement fields
  
 ```cpp
 std::cout << std::format( "The answer is {}", 42 );
  ```
  
-Can contains argument index
+### Positional arguments
  
  ```cpp
 std::cout << std::format( "I'd rather be {1} than {0}", "right", "happy" );
  ```
  
-curly braces in output
+### curly braces in output
  
  ```cpp
 std::cout << std::format( "The answer is {{ }}", 42 );
