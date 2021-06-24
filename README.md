@@ -140,18 +140,20 @@ std::cout << std::format( "{:< 5}", -42 );
 ### [#]
  
 <ul>
- <li><p>< left</p></li>
- <li><p>> right</p></li>
- <li><p>^ center</p></li>
+ <li><p>enabled alternative formatting rules</p></li>
+ <li><p>integral types</p>
+  <ul>
+     <li>Hexadecimal format: inserts 0x or 0X at font</li>
+     <li>Binray format: inserts 0b or 0B at font</li>
+     <li>Octal format: inserts 0</li>
+    </ul>
+ </li>
+ <li><p>floating-points types</p>
+  <ul>
+   <li>always show decimal separator, even without following digits</li>
+  </ul>
+ </li>
 </ul>
- 
-// enabled alternative formatting rules
-//integral types
-//	- Hexadecimal format: inserts 0x or 0X at font
-//	- Binray format: inserts 0b or 0B at font
-//	- Octal format: inserts 0
-//floating-points types
-//	- always show decimal separator, even without following digits
  
 ### [.precision]
  
