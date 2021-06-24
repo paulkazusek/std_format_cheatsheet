@@ -202,6 +202,16 @@ std::cout << std::format( "{:15X}", 42 );
 std::cout << std::format( "{:#15X}", 42 );
  ```
  
+### [type]
+
+#### integer types
+#### floating-points types
+#### booleans
+#### characters
+#### strings
+#### pointers
+
+
 ### [.precision]
  
 only for floating-points types and strings types
@@ -227,17 +237,7 @@ std::cout << std::format( "{:{}.{}f}", pi, width, precision );
 ```cpp
 std::cout << std::format( "{0:{1}.{2}f}", pi, width, precision );
  ```
- 
-### [type]
 
-#### integer types
-#### floating-points types
-#### booleans
-#### characters
-#### strings
-#### pointers
-
- 
 ## Localization
 	
 std::locale is supported in std::format 
