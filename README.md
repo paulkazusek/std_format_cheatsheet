@@ -2,7 +2,9 @@
 
 ## Requirement
 
-| compiler  | version  |
+| compiler | version  |
 |:--------:|:-------------:|
-|Visual Studio | 16.10 / 19.29 |
+| Visual Studio | 16.10 / 19.29 |
+| GCC | ??? |
+| clang  ??? |
 
