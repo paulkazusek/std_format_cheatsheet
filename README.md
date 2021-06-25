@@ -343,6 +343,7 @@ private:
 template<>
 class std::formatter<Person>
 {
+public:
 	const char* parse(std::string_view format)
 	{
 	
