@@ -301,6 +301,7 @@ Need to provide a specialization of std::formater\<\> and imlpement
  <li>formatter<>::fomrat()</li>
 </ul>
 
+### Example Person
 
 ```cpp
 class Person
