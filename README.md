@@ -1,12 +1,6 @@
 # std::format cheatsheet
 
-IMAGE:
-
-modern cpp
-
-std::format
-
-cheatsheet
+![std::format cheatsheet](https://imgur.com/a/S14ClLt)
 
 If you like this content, you can contact me or follow me on Twitter :+1:
 
