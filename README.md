@@ -10,7 +10,7 @@ If you like this content, you can contact me or follow me on Twitter :+1:
 
 ### What is std::format?
 
-The std::format is a text formatting library, which offers a safe and extensible alternative to the printf family of functions. It is intended to complement the existing C++ I/O streams library and reuse some of its infrastructure such as overloaded insertion operators for user-defined types. 
+The std::format (since C++20) is a text formatting library, which offers a safe and extensible alternative to the printf family of functions. It is intended to complement the existing C++ I/O streams library and reuse some of its infrastructure such as overloaded insertion operators for user-defined types. 
 
 ## Table of Contents
 
