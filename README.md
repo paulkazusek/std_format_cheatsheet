@@ -292,6 +292,14 @@ std::cout << std::format( "{}", c);
 	
 ## formating custom types
 
+Need to provide a specialization of std::formater\<\> and imlpement
+
+<ul>
+ <li>formatter\<\>::parse()</li>
+ <li>formatter\<\>::fomrat()</li>
+</ul>
+
+
 ```cpp
 class Person
 {
