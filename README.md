@@ -295,8 +295,8 @@ std::cout << std::format( "{}", c);
 Need to provide a specialization of std::formater\<\> and imlpement
 
 <ul>
- <li>formatter\<\>::parse()</li>
- <li>formatter\<\>::fomrat()</li>
+ <li>formatter<>::parse()</li>
+ <li>formatter<>::fomrat()</li>
 </ul>
 
 
