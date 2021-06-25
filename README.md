@@ -18,8 +18,8 @@ The std::format (since C++20) is a text formatting library, which offers a safe 
 
 - [std::format in C++20](#stdformat-in-c20)
 	* [Introduction](#introduction)
-		+ [What is std::format?]()
-		+ [Formatting functions]() 
+		+ [What is std::format?](#what-is-stdformat)
+		+ [Formatting functions](#formatting-functions) 
 	* [Table of contents](#table-of-contents)
 	* [Requirement](#Requirement)
 	* [Currently ways to formatting in C++](#currently-ways-to-formatting-in-c)
