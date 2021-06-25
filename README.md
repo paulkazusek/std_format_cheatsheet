@@ -22,16 +22,16 @@ If you like this content, you can contact me or follow me on Twitter :+1:
 
 ## Requirement
 
+```cpp
+#include <format>
+ ```
+
 | compiler | version  |
 |:--------:|:-------------:|
 | Visual Studio | Version 16.10 / cl 19.29 |
 | GCC | ??? |
 | clang | ??? |
-
-```cpp
-#include <format>
- ```
-    
+   
 ## Currently ways to formatting in C++
 
 ### C-Style printf() from \<cstdio\>
