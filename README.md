@@ -291,3 +291,31 @@ std::cout << std::format( "{}", c);
 
 	
 ## formating custom types
+
+```cpp
+class Person
+{
+public:
+	Person() = delete;
+	Person( unsigned long long id, const std::string& firstName, const std::string& lastName ) noexcept
+		: _id( id ), _firstName( firstName ), _lastName( lastName ) {}
+
+	auto getId() const noexcept -> unsigned long long
+	{
+		return _id;
+	}
+	auto getFirstName() const noexcept -> const std::string&
+	{
+		return _firstName;
+	}
+	auto getLastName() const noexcept -> const std::string&
+	{
+		return _lastName;
+	}
+
+private:
+	unsigned long long _id;
+	std::string _firstName;
+	std::string _lastName;
+};
+```
