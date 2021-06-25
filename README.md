@@ -35,7 +35,7 @@ If you like this content, you can contact me or follow me on Twitter :+1:
     
 ## Currently ways to formatting in C++
 
-### C-Style printf() from <cstdio>
+### C-Style printf() from \<cstdio\>
 
 ```cpp
 int answer { 42 };
