@@ -327,3 +327,19 @@ private:
 	std::string _lastName;
 };
 ```
+
+```cpp
+template<>
+class std::formatter<Person>
+{
+	const char* parse(std::string_view format)
+	{
+	
+	}
+	
+	void format( buffer& buf, const Person& person, context& ctx )
+	{
+	
+	}
+};
+```
