@@ -31,6 +31,8 @@ If you like this content, you can contact me or follow me on Twitter :+1:
 | Visual Studio | Version 16.10 / cl 19.29 |
 | GCC | ??? |
 | clang | ??? |
+
+[resource](https://en.cppreference.com/w/cpp/20)
    
 ## Currently ways to formatting in C++
 
