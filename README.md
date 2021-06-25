@@ -59,7 +59,7 @@ The std::format (since C++20) is a text formatting library, which offers a safe 
 | GCC | 11.1? |
 | clang | ??? |
 
-[resource](https://en.cppreference.com/w/cpp/20)
+Source: [cppreference](https://en.cppreference.com/w/cpp/20)
    
 ## Currently ways to formatting in C++
 
