@@ -260,6 +260,14 @@ std::cout << std::format( locale( "de_DE.UTF-8" ), "{:L}", 1024 );
 #include <chrono>
 ```
 
+### Example 1
+
+```cpp
+std::cout << std::format( "{:%d.%m.%Y}.", std::chrono::system_clock::now() ) << "\n";
+```
+
+### Example 2
+
 ```cpp
 void print_happy_birthday( const std::string_view& name, const std::chrono::year_month_day& birthday )
 {
