@@ -349,12 +349,12 @@ template<>
 class std::formatter<Person>
 {
 public:
-	const char* parse(std::string_view format)
+	constexpr auto parse( auto& context )
 	{
 	
 	}
 	
-	void format( buffer& buf, const Person& person, context& ctx )
+	auto format( const Person& person, auto& context )
 	{
 	
 	}
