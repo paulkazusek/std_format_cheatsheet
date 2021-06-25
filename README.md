@@ -292,6 +292,8 @@ std::cout << std::format( "{}", c);
 	
 ## formating custom types
 
+Seperate parsing anf formatting in extension API
+
 Need to provide a specialization of std::formater\<\> and imlpement
 
 <ul>
