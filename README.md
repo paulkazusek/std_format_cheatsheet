@@ -16,19 +16,19 @@ The std::format (since C++20) is a text formatting library, which offers a safe 
 
 #### format
 
-[format](https://en.cppreference.com/w/cpp/utility/format/format)
+[cppreference](https://en.cppreference.com/w/cpp/utility/format/format)
 
 #### format_to
 
-[format_to](https://en.cppreference.com/w/cpp/utility/format/format_to)
+[cppreference](https://en.cppreference.com/w/cpp/utility/format/format_to)
 
 #### format_to_n
 
-[format_to_n](https://en.cppreference.com/w/cpp/utility/format/format_to_n)
+[cppreference](https://en.cppreference.com/w/cpp/utility/format/format_to_n)
 
 #### formatted_size
 
-[formatted_size](https://en.cppreference.com/w/cpp/utility/format/formatted_size)
+[cppreference](https://en.cppreference.com/w/cpp/utility/format/formatted_size)
 
 ## Table of Contents
 
