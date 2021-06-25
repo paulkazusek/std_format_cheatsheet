@@ -13,6 +13,11 @@ If you like this content, you can contact me or follow me on Twitter :+1:
 	* [Requirement](#Requirement)
 	* [Currently ways to formatting in C++](#currently-ways-to-formatting-in-c)
 		+ [C-Style printf() from \<cstdio\>](#c-style-printf-from-)
+		+ [C++ I/O streams](#c-io-streams)
+		+ [Boost Format](#boost-format)
+		+ [Fast Format](#fast-format)
+		+ [std::format in \<format\>](#stdformat-in-format)
+	* [Placeholder](#placeholder)
 
 
 ## Requirement
