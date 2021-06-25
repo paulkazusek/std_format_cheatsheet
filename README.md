@@ -1,6 +1,6 @@
 # std::format cheatsheet
 
-![std::format cheatsheet](https://i.imgur.com/G7F9CjK.png)
+![std::format cheatsheet](https://i.imgur.com/tDqRjOx.png)
 
 If you like this content, you can contact me or follow me on Twitter :+1:
 
