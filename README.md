@@ -12,7 +12,14 @@ If you like this content, you can contact me or follow me on Twitter :+1:
 
 The std::format (since C++20) is a text formatting library, which offers a safe and extensible alternative to the printf family of functions. It is intended to complement the existing C++ I/O streams library and reuse some of its infrastructure such as overloaded insertion operators for user-defined types. 
 
-## Formatting functions
+### Formatting functions
+
+| funtion    | description   |
+|:----------:|:-------------:|
+| [format](https://en.cppreference.com/w/cpp/utility/format/format) | ... |
+| [format_to](https://en.cppreference.com/w/cpp/utility/format/format_to) | ... |
+| [format_to_n](https://en.cppreference.com/w/cpp/utility/format/format_to_n) | ... |
+| [formatted_size](https://en.cppreference.com/w/cpp/utility/format/formatted_size) | ... |
 
 ## Table of Contents
 
