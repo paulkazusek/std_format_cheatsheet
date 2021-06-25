@@ -67,7 +67,7 @@ int answer { 42 };
 ff::fmtll( std::cout,  "The answer is {0}", answer );
  ```
  
-### std::format in <format>
+### std::format in \<format\>
  
 ```cpp
 int answer { 42 };
