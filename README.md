@@ -6,6 +6,12 @@ If you like this content, you can contact me or follow me on Twitter :+1:
 
 [![Tweet for help](https://img.shields.io/twitter/follow/paulkazusek?label=Tweet%20%40paulkazusek&style=social)](https://twitter.com/paulkazusek/)
 
+## Introduction
+
+### What is std::format?
+
+The text formatting library offers a safe and extensible alternative to the printf family of functions. It is intended to complement the existing C++ I/O streams library and reuse some of its infrastructure such as overloaded insertion operators for user-defined types. 
+
 ## Table of Contents
 
 - [std::format in C++20](#stdformat-in-c20)
@@ -29,7 +35,7 @@ If you like this content, you can contact me or follow me on Twitter :+1:
 | compiler | version  |
 |:--------:|:-------------:|
 | Visual Studio | Version 16.10 / cl 19.29 |
-| GCC | ??? |
+| GCC | 11.1? |
 | clang | ??? |
 
 [resource](https://en.cppreference.com/w/cpp/20)
