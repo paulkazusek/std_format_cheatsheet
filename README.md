@@ -45,6 +45,7 @@ The std::format is a text formatting library since C++20, which offers a safe an
 		+ [Fast Format](#fast-format)
 		+ [std::format in \<format\>](#stdformat-in-format)
 	* [Placeholder](#placeholder)
+		+ [Brace-delimited replacement fields](#brace-delimited-replacement-fields)
 
 
 ## Requirement
