@@ -16,7 +16,6 @@ The std::format is a text formatting library since C++20, which offers a safe an
 
 #### format
 
-<a href="https://en.cppreference.com/w/cpp/utility/format/format/" target="_blank">cppreference</a>
 [cppreference](https://en.cppreference.com/w/cpp/utility/format/format)
 
 #### format_to
