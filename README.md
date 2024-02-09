@@ -87,6 +87,8 @@ const int answer { 42 };
 
 std::cout << boost::format( "The answer is %") % answer;
  ```
+
+[www.boost.org](https://www.boost.org/doc/libs/1_77_0/libs/format/doc/format.html)
  
 ### Fast Format
  
@@ -95,6 +97,8 @@ const int answer { 42 };
 
 ff::fmtll( std::cout,  "The answer is {0}", answer );
  ```
+
+[www.fastformat.org](http://www.fastformat.org/)
  
 ### std::format in \<format\>
  
