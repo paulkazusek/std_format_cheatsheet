@@ -67,7 +67,7 @@ Source: [cppreference](https://en.cppreference.com/w/cpp/20)
 ### printf() function inherited from C
 
 ```cpp
-#include <cstdio>
+#include <cstdio>	// C library for Input/Output operations
  ```
 
 ```cpp
