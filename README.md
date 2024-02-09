@@ -67,7 +67,7 @@ Source: [cppreference](https://en.cppreference.com/w/cpp/20)
 ### C-Style printf() from \<cstdio\>
 
 ```cpp
-int answer { 42 };
+const int answer { 42 };
 
 printf( "The answer is %d ", answer );
  ```
@@ -75,7 +75,7 @@ printf( "The answer is %d ", answer );
 ### C++ I/O streams
 
 ```cpp
-int answer { 42 };
+const int answer { 42 };
 
 std::cout << "The answer is " << answer << "\n";
  ```
@@ -83,7 +83,7 @@ std::cout << "The answer is " << answer << "\n";
 ### Boost Format
  
 ```cpp
-int answer { 42 };
+const int answer { 42 };
 
 std::cout << boost::format( "The answer is %") % answer;
  ```
@@ -91,7 +91,7 @@ std::cout << boost::format( "The answer is %") % answer;
 ### Fast Format
  
 ```cpp
-int answer { 42 };
+const int answer { 42 };
 
 ff::fmtll( std::cout,  "The answer is {0}", answer );
  ```
@@ -99,7 +99,7 @@ ff::fmtll( std::cout,  "The answer is {0}", answer );
 ### std::format in \<format\>
  
 ```cpp
-int answer { 42 };
+const int answer { 42 };
 
 std::cout << std::format( "The answer is {}", answer );
  ```
