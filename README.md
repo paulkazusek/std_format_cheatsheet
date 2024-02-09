@@ -55,7 +55,7 @@ The std::format is a text formatting library since C++20, which offers a safe an
  ```
 
 | compiler support | Text Formatting (C++20)  | status |
-|:--------:|:-------------:|
+|:--------:|:-------------:|:-------------:|
 | Visual Studio | [VS 2019 16.10 / cl 19.29](https://learn.microsoft.com/en-us/cpp/overview/visual-cpp-language-conformance?view=msvc-170#c-standard-library-features) | completed |
 | GCC | [13.1](https://gcc.gnu.org/onlinedocs/libstdc++/manual/status.html#status.iso.2020) | completed |
 | clang | [14](https://libcxx.llvm.org/Status/Cxx20.html) | completed |
