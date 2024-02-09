@@ -109,6 +109,8 @@ std::cout << std::format( "The answer is {}", answer );
  ```
  
 ## Placeholder
+
+The {} indicates a replacement field like % in printf. 
  
 ### Brace-delimited replacement fields
  
