@@ -64,7 +64,11 @@ Source: [cppreference](https://en.cppreference.com/w/cpp/20)
    
 ## Currently ways to formatting in C++
 
-### C-Style printf() from \<cstdio\>
+### printf() function inherited from C
+
+```cpp
+#include <cstdio>
+ ```
 
 ```cpp
 const int answer { 42 };
