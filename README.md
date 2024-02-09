@@ -117,6 +117,11 @@ The {} indicates a replacement field like % in printf.
 ```cpp
 std::cout << std::format( "The answer is {}", 42 );
  ```
+Writes the following output:
+
+```bash
+The answer is 42
+ ```
  
 ### Positional arguments
  
