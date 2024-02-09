@@ -252,9 +252,9 @@ std::cout << std::format( "{:#15X}", 42 );
 only for floating-points types and strings types
 
 ```cpp
-double pi { 3.1415 };
-int precision { 2 };
-int width { 15 };
+const double pi { 3.1415 };
+const int precision { 2 };
+const int width { 15 };
  ```
  
 ```cpp
