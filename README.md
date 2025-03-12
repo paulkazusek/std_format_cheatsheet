@@ -357,7 +357,7 @@ Need to provide a specialization of std::formater\<\> and imlpement
 
 <ul>
  <li>formatter<>::parse()</li>
- <li>formatter<>::fomrat()</li>
+ <li>formatter<>::format()</li>
 </ul>
 
 ### Example Person
