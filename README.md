@@ -345,7 +345,7 @@ std::complex<double> c { 4.0, 8.0 };
 ```
 
 ```cpp
-std::cout << std::format( "{}", c);
+std::cout << std::format( "{}", c );
 ```
 
 	
