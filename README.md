@@ -406,3 +406,35 @@ public:
 	}
 };
 ```
+
+## Enum to String Formatting
+
+```cpp
+#include <format>
+#include <iostream>
+#include <string_view>
+
+enum class Direction { North, East, South, West };
+
+std::string_view to_string( Direction direction ) {
+    switch (direction) {
+        case Direction::North: return "north";
+        case Direction::East:  return "east";
+        case Direction::South: return "south";
+        case Direction::West:  return "west";
+        default:               return "unknown";
+    }
+}
+
+template<>
+struct std::formatter<Direction> : std::formatter<std::string_view> {
+    auto format( Direction direction, format_context& ctx ) const {
+        return std::formatter<std::string_view>::format( to_string( direction ), ctx );
+    }
+};
+
+int main() {
+    Direction direction = Direction::East;
+    std::cout << std::format( "Direction: {}", direction ) << '\n';
+}
+```
