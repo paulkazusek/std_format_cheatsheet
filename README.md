@@ -103,7 +103,7 @@ const int answer { 42 };
 ff::fmtll( std::cout,  "The answer is {0}", answer );
  ```
 
-[www.fastformat.org](http://www.fastformat.org/) [github.com/synesissoftware/FastForma](https://github.com/synesissoftware/FastFormat)
+[www.fastformat.org](http://www.fastformat.org/) or [github.com/synesissoftware/FastFormat](https://github.com/synesissoftware/FastFormat)
  
 ### std::format in \<format\>
  
