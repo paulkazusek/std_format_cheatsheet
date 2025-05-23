@@ -428,8 +428,8 @@ std::string_view to_string( Direction direction ) {
 
 template<>
 struct std::formatter<Direction> : std::formatter<std::string_view> {
-    auto format( Direction direction, format_context& ctx ) const {
-        return std::formatter<std::string_view>::format( to_string( direction ), ctx );
+    auto format( Direction direction, auto& context ) const {
+        return std::formatter<std::string_view>::format( to_string( direction ), context );
     }
 };
 
