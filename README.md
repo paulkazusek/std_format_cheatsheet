@@ -12,7 +12,7 @@ The std::format is a text formatting library since C++20, which offers a safe an
 
 ### Formatting functions
 
-#### format
+#### std::format
 
 ```cpp
 std::string result = std::format(format_string, args...);
@@ -22,33 +22,33 @@ std::string result = std::format(format_string, args...);
 
 [cppreference](https://en.cppreference.com/w/cpp/utility/format/format)
 
-#### format_to
+#### std::format_to
 
 ```cpp
 auto it = std::format_to(output_iterator, format_string, args...);
 ```
 
-Formats the arguments just like std::format, but writes the result directly to an output buffer using an output iterator.
+**Description**: Formats the arguments just like std::format, but writes the result directly to an output buffer using an output iterator.
 
 [cppreference](https://en.cppreference.com/w/cpp/utility/format/format_to)
 
-#### format_to_n
+#### std::format_to_n
 
 ```cpp
 auto result = std::format_to_n(output_iterator, n, format_string, args...);
 ```
 
-Like format_to, but limits the output to a maximum of n characters. Returns a pair consisting of an output iterator pointing past the last written character and the number of characters that would have been written.
+**Description**: Like format_to, but limits the output to a maximum of n characters. Returns a pair consisting of an output iterator pointing past the last written character and the number of characters that would have been written.
 
 [cppreference](https://en.cppreference.com/w/cpp/utility/format/format_to_n)
 
-#### formatted_size
+#### std::formatted_size
 
 ```cpp
 size_t size = std::formatted_size(format_string, args...);
 ```
 
-Returns the number of characters that would be produced by std::format (without actually formatting or allocating memory). Useful for pre-allocating buffers.
+**Description**: Returns the number of characters that would be produced by std::format (without actually formatting or allocating memory). Useful for pre-allocating buffers.
 
 [cppreference](https://en.cppreference.com/w/cpp/utility/format/formatted_size)
 
