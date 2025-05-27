@@ -379,8 +379,7 @@ std::complex<double> c { 4.0, 8.0 };
 std::cout << std::format( "{}", c );
 ```
 
-	
-## formating custom types
+## Formatting User-Defined Types
 
 Seperate parsing and formatting in extension API
 
