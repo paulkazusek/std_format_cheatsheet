@@ -14,13 +14,25 @@ The std::format is a text formatting library since C++20, which offers a safe an
 
 #### format
 
+```cpp
+std::string result = std::format(format_string, args...);
+```
+
 [cppreference](https://en.cppreference.com/w/cpp/utility/format/format)
 
 #### format_to
 
+```cpp
+auto it = std::format_to(output_iterator, format_string, args...);
+```
+
 [cppreference](https://en.cppreference.com/w/cpp/utility/format/format_to)
 
 #### format_to_n
+
+```cpp
+auto result = std::format_to_n(output_iterator, n, format_string, args...);
+```
 
 [cppreference](https://en.cppreference.com/w/cpp/utility/format/format_to_n)
 
