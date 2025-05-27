@@ -18,7 +18,7 @@ The std::format is a text formatting library since C++20, which offers a safe an
 std::string result = std::format(format_string, args...);
 ```
 
-> Description: Formats the given arguments (args...) according to the format_string and returns the result as a std::string.
+**Description**: Formats the given arguments (args...) according to the format_string and returns the result as a std::string.
 
 [cppreference](https://en.cppreference.com/w/cpp/utility/format/format)
 
