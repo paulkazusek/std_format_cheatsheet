@@ -28,6 +28,8 @@ Formats the given arguments (args...) according to the format_string and returns
 auto it = std::format_to(output_iterator, format_string, args...);
 ```
 
+Formats the arguments just like std::format, but writes the result directly to an output buffer using an output iterator.
+
 [cppreference](https://en.cppreference.com/w/cpp/utility/format/format_to)
 
 #### format_to_n
@@ -36,6 +38,8 @@ auto it = std::format_to(output_iterator, format_string, args...);
 auto result = std::format_to_n(output_iterator, n, format_string, args...);
 ```
 
+Like format_to, but limits the output to a maximum of n characters. Returns a pair consisting of an output iterator pointing past the last written character and the number of characters that would have been written.
+
 [cppreference](https://en.cppreference.com/w/cpp/utility/format/format_to_n)
 
 #### formatted_size
@@ -43,6 +47,8 @@ auto result = std::format_to_n(output_iterator, n, format_string, args...);
 ```cpp
 size_t size = std::formatted_size(format_string, args...);
 ```
+
+Returns the number of characters that would be produced by std::format (without actually formatting or allocating memory). Useful for pre-allocating buffers.
 
 [cppreference](https://en.cppreference.com/w/cpp/utility/format/formatted_size)
 
