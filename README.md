@@ -2,9 +2,7 @@
 
 ![std::format cheatsheet](https://i.imgur.com/tDqRjOx.png)
 
-If you like this content, you can contact me or follow me on Twitter :+1:
-
-[![Tweet for help](https://img.shields.io/twitter/follow/paulkazusek?label=Tweet%20%40paulkazusek&style=social)](https://twitter.com/paulkazusek/)
+If you like this content, of if it helps you, leave a ⭐!
 
 ## Introduction
 
