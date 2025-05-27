@@ -26,6 +26,10 @@ The std::format is a text formatting library since C++20, which offers a safe an
 
 #### formatted_size
 
+```cpp
+size_t size = std::formatted_size(format_string, args...);
+```
+
 [cppreference](https://en.cppreference.com/w/cpp/utility/format/formatted_size)
 
 ## Table of Contents
