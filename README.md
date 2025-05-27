@@ -2,7 +2,7 @@
 
 ![std::format cheatsheet](https://i.imgur.com/tDqRjOx.png)
 
-If you like this content, of if it helps you, leave a ⭐!
+If you like this content, or if it helps you, leave a ⭐!
 
 ## Introduction
 
