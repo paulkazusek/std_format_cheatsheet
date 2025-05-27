@@ -393,7 +393,12 @@ Need to provide a specialization of std::formater\<\> and imlpement
 ### Example Point
 
 ```cpp
-struct Point { int x, y; };
+#include <format>
+#include <iostream>
+
+struct Point {
+    int x, y;
+};
 
 template <>
 struct std::formatter<Point> {
@@ -406,6 +411,13 @@ struct std::formatter<Point> {
         return std::format_to( context.out(), "({}, {})", point.x, point.y );
     }
 };
+
+int main() {
+    Point point{3, 7};
+
+    // Format to string
+    std::string formatted_point = std::format( "The point is: {}", point );
+}
 ```
 
 ### Example Person
