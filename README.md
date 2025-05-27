@@ -29,7 +29,7 @@ std::string result = std::format(format_string, args...);
 
 **Description**: Formats the given arguments (args...) according to the format_string and returns the result as a std::string.
 
-[cppreference](https://en.cppreference.com/w/cpp/utility/format/format)
+[cppreference.com: std::format](https://en.cppreference.com/w/cpp/utility/format/format)
 
 #### std::format_to
 
@@ -39,7 +39,7 @@ auto it = std::format_to(output_iterator, format_string, args...);
 
 **Description**: Formats the arguments just like std::format, but writes the result directly to an output buffer using an output iterator.
 
-[cppreference](https://en.cppreference.com/w/cpp/utility/format/format_to)
+[cppreference.com: std::format_to](https://en.cppreference.com/w/cpp/utility/format/format_to)
 
 #### std::format_to_n
 
@@ -49,7 +49,7 @@ auto result = std::format_to_n(output_iterator, n, format_string, args...);
 
 **Description**: Like format_to, but limits the output to a maximum of n characters. Returns a pair consisting of an output iterator pointing past the last written character and the number of characters that would have been written.
 
-[cppreference](https://en.cppreference.com/w/cpp/utility/format/format_to_n)
+[cppreference.com: std::format_to_n](https://en.cppreference.com/w/cpp/utility/format/format_to_n)
 
 #### std::formatted_size
 
@@ -59,7 +59,7 @@ size_t size = std::formatted_size(format_string, args...);
 
 **Description**: Returns the number of characters that would be produced by std::format (without actually formatting or allocating memory). Useful for pre-allocating buffers.
 
-[cppreference](https://en.cppreference.com/w/cpp/utility/format/formatted_size)
+[cppreference.com: std::format_size](https://en.cppreference.com/w/cpp/utility/format/formatted_size)
 
 ## Table of Contents
 
