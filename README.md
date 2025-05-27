@@ -431,23 +431,19 @@ int main() {
 ### Example Person
 
 ```cpp
-class Person
-{
+class Person {
 public:
 	Person() = delete;
 	Person( unsigned long long id, const std::string& firstName, const std::string& lastName ) noexcept
 		: _id( id ), _firstName( firstName ), _lastName( lastName ) {}
 
-	auto getId() const noexcept -> unsigned long long
-	{
+	auto getId() const noexcept -> unsigned long long {
 		return _id;
 	}
-	auto getFirstName() const noexcept -> const std::string&
-	{
+	auto getFirstName() const noexcept -> const std::string& {
 		return _firstName;
 	}
-	auto getLastName() const noexcept -> const std::string&
-	{
+	auto getLastName() const noexcept -> const std::string& {
 		return _lastName;
 	}
 
@@ -456,20 +452,15 @@ private:
 	std::string _firstName;
 	std::string _lastName;
 };
-```
 
-```cpp
 template<>
-class std::formatter<Person>
-{
+class std::formatter<Person> {
 public:
-	constexpr auto parse( auto& context )
-	{
+	constexpr auto parse( auto& context ) {
 	
 	}
 	
-	auto format( const Person& person, auto& context )
-	{
+	auto format( const Person& person, auto& context ) {
 	
 	}
 };
