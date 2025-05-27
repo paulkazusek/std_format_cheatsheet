@@ -390,6 +390,24 @@ Need to provide a specialization of std::formater\<\> and imlpement
  <li>formatter<>::format()</li>
 </ul>
 
+### Example Point
+
+```cpp
+struct Point { int x, y; };
+
+template <>
+struct std::formatter<Point> {
+    constexpr auto parse( format_parse_context& context ) {
+        return context.begin();
+    }
+
+    template <typename FormatContext>
+    auto format( const Point& point, FormatContext& context ) {
+        return std::format_to( context.out(), "({}, {})", point.x, point.y );
+    }
+};
+```
+
 ### Example Person
 
 ```cpp
