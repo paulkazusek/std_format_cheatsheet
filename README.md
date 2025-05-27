@@ -417,6 +417,14 @@ int main() {
 
     // Format to string
     std::string formatted_point = std::format( "The point is: {}", point );
+    std::cout << formatted_point << '\n';
+
+    // Direct output using std::format_to and std::back_inserter
+    std::string buffer;
+    std::format_to( std::back_inserter( buffer ), "Formatted directly: {}\n", point );
+    std::cout << buffer;
+
+    return 0;
 }
 ```
 
