@@ -280,6 +280,8 @@ std::cout << std::format( "{:#15X}", 42 );
  
 ### [type]
 
+The type specifier determines how the value is presented.
+
 #### integer types
 
 <ul>
@@ -384,6 +386,15 @@ std::cout << std::format( "{}", 42);
 #### strings
 #### pointers
 
+### Combine [#] and [type]
+
+<ul>
+ <li><p>#b</p></li>
+ <li><p>#B</p></li>
+ <li><p>#o</p></li>
+ <li><p>#x</p></li>
+ <li><p>#X</p></li>
+</ul>
 
 ### [.precision]
  
