@@ -291,7 +291,7 @@ std::cout << std::format( "{:b}", 42);
 ```
 
 <ul>
- <li><p>B Binary, uppercase prefix</p></li>
+ <li><p>B Binary, uppercase prefix → 101010</p></li>
 </ul>
 
 ```cpp
