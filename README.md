@@ -298,6 +298,10 @@ std::cout << std::format( "{:b}", 42);
 std::cout << std::format( "{:B}", 42);
 ```
 
+```bash
+101010
+ ```
+
 <ul>
  <li><p>c Character</p></li>
 </ul>
