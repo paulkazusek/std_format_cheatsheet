@@ -290,8 +290,12 @@ std::cout << std::format( "{:#15X}", 42 );
 std::cout << std::format( "{:b}", 42);
 ```
 
+```bash
+101010
+```
+
 <ul>
- <li><p>B Binary, uppercase prefix → 101010</p></li>
+ <li><p>B Binary, uppercase prefix</p></li>
 </ul>
 
 ```cpp
@@ -300,14 +304,18 @@ std::cout << std::format( "{:B}", 42);
 
 ```bash
 101010
- ```
+```
 
 <ul>
  <li><p>c Character</p></li>
 </ul>
 
 ```cpp
-std::cout << std::format( "{:c}", 42);
+std::cout << std::format( "{:c}", 65);
+```
+
+```bash
+A
 ```
 
 <ul>
@@ -318,12 +326,20 @@ std::cout << std::format( "{:c}", 42);
 std::cout << std::format( "{:d}", 42);
 ```
 
+```bash
+42
+```
+
 <ul>
  <li><p>o Octal</p></li>
 </ul>
 
 ```cpp
 std::cout << std::format( "{:o}", 42);
+```
+
+```bash
+52
 ```
 
 <ul>
@@ -334,6 +350,10 @@ std::cout << std::format( "{:o}", 42);
 std::cout << std::format( "{:x}", 42);
 ```
 
+```bash
+2a
+```
+
 <ul>
  <li><p>X Hexadecimal, uppercase</p></li>
 </ul>
@@ -342,12 +362,20 @@ std::cout << std::format( "{:x}", 42);
 std::cout << std::format( "{:X}", 42);
 ```
 
+```bash
+2A
+```
+
 <ul>
  <li><p>(none) Decimal</p></li>
 </ul>
 
 ```cpp
 std::cout << std::format( "{}", 42);
+```
+
+```bash
+42
 ```
 
 #### floating-points types
