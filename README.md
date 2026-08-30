@@ -260,11 +260,11 @@ std::cout << std::format( "{:< 5}", -42 );
 
 ```cpp
 std::cout << std::format( "{:15d}", 42 );
- ```
+```
 
 ```cpp
 std::cout << std::format( "{:15b}", 42 );
- ```
+```
  
 ```cpp
 std::cout << std::format( "{:#15b}", 42 );
@@ -272,11 +272,11 @@ std::cout << std::format( "{:#15b}", 42 );
  
 ```cpp
 std::cout << std::format( "{:15X}", 42 );
- ```
+```
 
 ```cpp
 std::cout << std::format( "{:#15X}", 42 );
- ```
+```
  
 ### [type]
 
@@ -288,47 +288,63 @@ std::cout << std::format( "{:#15X}", 42 );
 
 ```cpp
 std::cout << std::format( "{:b}", 42);
- ```
+```
 
 <ul>
- <li><p>b Binary</p></li>
  <li><p>B Binary, uppercase prefix</p></li>
- <li><p>c Character</p></li>
- <li><p>d Decimal</p></li>
- <li><p>c Character</p></li>
- <li><p>o Octal</p></li>
- <li><p>x Hexadecimal</p></li>
- <li><p>X Hexadecimal, uppercase</p></li>
- <li><p>(none) Decimal</p></li>
 </ul>
 
 ```cpp
 std::cout << std::format( "{:B}", 42);
- ```
+```
+
+<ul>
+ <li><p>c Character</p></li>
+</ul>
 
 ```cpp
 std::cout << std::format( "{:c}", 42);
- ```
+```
+
+<ul>
+ <li><p>d Decimal</p></li>
+</ul>
 
 ```cpp
 std::cout << std::format( "{:d}", 42);
- ```
+```
+
+<ul>
+ <li><p>o Octal</p></li>
+</ul>
 
 ```cpp
 std::cout << std::format( "{:o}", 42);
- ```
+```
+
+<ul>
+ <li><p>x Hexadecimal</p></li>
+</ul>
 
 ```cpp
 std::cout << std::format( "{:x}", 42);
- ```
+```
+
+<ul>
+ <li><p>X Hexadecimal, uppercase</p></li>
+</ul>
 
 ```cpp
 std::cout << std::format( "{:X}", 42);
- ```
+```
+
+<ul>
+ <li><p>(none) Decimal</p></li>
+</ul>
 
 ```cpp
 std::cout << std::format( "{}", 42);
- ```
+```
 
 #### floating-points types
 #### booleans
@@ -345,23 +361,23 @@ only for floating-points types and strings types
 const double pi { 3.1415 };
 const int precision { 2 };
 const int width { 15 };
- ```
+```
  
 ```cpp
 std::cout << std::format( "{:15.2f}", pi );
- ```
+```
 
 ```cpp
 std::cout << std::format( "{:15.{}f}", pi, precision );
- ```
+```
 
 ```cpp
 std::cout << std::format( "{:{}.{}f}", pi, width, precision );
- ```
+```
 
 ```cpp
 std::cout << std::format( "{0:{1}.{2}f}", pi, width, precision );
- ```
+```
 
 ## Localization
 	
@@ -375,15 +391,15 @@ std::locale is supported in std::format
 
 ```cpp
 std::cout << std::format( locale( "en_US.UTF-8" ), "{:L}", 1024 );
- ```
+```
 
 ```cpp
 std::cout << std::format( locale( "zh_CN.UTF-8" ), "{:L}", 1024 );
- ```
+```
  
 ```cpp
 std::cout << std::format( locale( "de_DE.UTF-8" ), "{:L}", 1024 );
- ```
+```
 
 ## formating std::chrono
  
