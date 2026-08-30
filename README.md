@@ -284,6 +284,14 @@ std::cout << std::format( "{:#15X}", 42 );
 
 <ul>
  <li><p>b Binary</p></li>
+</ul>
+
+```cpp
+std::cout << std::format( "{:b}", 42);
+ ```
+
+<ul>
+ <li><p>b Binary</p></li>
  <li><p>B Binary, uppercase prefix</p></li>
  <li><p>c Character</p></li>
  <li><p>d Decimal</p></li>
@@ -293,10 +301,6 @@ std::cout << std::format( "{:#15X}", 42 );
  <li><p>X Hexadecimal, uppercase</p></li>
  <li><p>(none) Decimal</p></li>
 </ul>
-
-```cpp
-std::cout << std::format( "{:b}", 42);
- ```
 
 ```cpp
 std::cout << std::format( "{:B}", 42);
