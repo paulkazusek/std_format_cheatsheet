@@ -284,10 +284,46 @@ std::cout << std::format( "{:#15X}", 42 );
 
 <ul>
  <li><p>b Binary</p></li>
+ <li><p>B Binary, uppercase prefix</p></li>
+ <li><p>c Character</p></li>
+ <li><p>d Decimal</p></li>
+ <li><p>c Character</p></li>
+ <li><p>o Octal</p></li>
+ <li><p>x Hexadecimal</p></li>
+ <li><p>X Hexadecimal, uppercase</p></li>
+ <li><p>(none) Decimal</p></li>
 </ul>
 
 ```cpp
 std::cout << std::format( "{:b}", 42);
+ ```
+
+```cpp
+std::cout << std::format( "{:B}", 42);
+ ```
+
+```cpp
+std::cout << std::format( "{:c}", 42);
+ ```
+
+```cpp
+std::cout << std::format( "{:d}", 42);
+ ```
+
+```cpp
+std::cout << std::format( "{:o}", 42);
+ ```
+
+```cpp
+std::cout << std::format( "{:x}", 42);
+ ```
+
+```cpp
+std::cout << std::format( "{:X}", 42);
+ ```
+
+```cpp
+std::cout << std::format( "{}", 42);
  ```
 
 #### floating-points types
