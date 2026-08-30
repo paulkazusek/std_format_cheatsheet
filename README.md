@@ -281,6 +281,15 @@ std::cout << std::format( "{:#15X}", 42 );
 ### [type]
 
 #### integer types
+
+<ul>
+ <li><p>b Binary</p></li>
+</ul>
+
+```cpp
+std::cout << std::format( "{:b}", 42);
+ ```
+
 #### floating-points types
 #### booleans
 #### characters
